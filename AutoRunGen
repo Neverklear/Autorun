@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Autorun.inf Generator</title>
+    </head>
+    <body>
+        <script type = "text/javascript" language = "javascript">
+        alert("INF files are the files that makes a CD or a DVD to directly open a file which is only required for execution, such as a setup file.");
+        var icon = prompt("Enter the name of the Icon (with extension) that you want as drive icon");
+        var name = prompt("Enter the name of the drive which you want");
+        var file = prompt("Enter the name of the file which you want to open after the flash drive is opened (with extension)");
+        document.write("[autorun]" + "<br>");
+        document.write("Icon=" + icon + "<br>");
+        document.write("Label=" + name + "<br>");
+        document.write(";Open=" + file + "<br>");
+        document.write("ShellExecute=" + file + "<br>");
+        document.write("UseAutoPlay=1" + "<br><br><br><br>");
+        document.write("Copy the text in NotePad and save it as autorun.inf and place it in the flash drive root directory.");
+        document.write("Please Like and Comment!! <br> Also check out my other codes such as Simple Object Orientation and Non-Sense Party!!");
+        </script>
+    </body>
+</html>
